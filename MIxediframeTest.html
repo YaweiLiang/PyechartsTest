@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>几个页面 在同一页面显示</title>
+</head>
+<body>
+<style type="text/css">
+    .MixediframeTest{
+        position: absolute ;
+    }
+    /* .MixediframeTest.Bar{*/
+    /*     left:0;*/
+    /*     height: 0;*/
+    /*     width:700px;*/
+    /*}*/
+    /*.MixediframeTest.Line{*/
+    /*    left: 700px;*/
+    /*    height: 0;*/
+    /*    width:700px;*/
+    /*}*/
+    /*.MixediframeTest.Map{*/
+    /*    left: 0px;*/
+    /*    height: 0;*/
+    /*    width:700px;*/
+    /*}*/
+</style>
+
+<div class="MixediframeTest" >
+ <div class="Bar">
+    <p>柱状图</p>
+        <iframe src="Test/FirstPyecharts.html" name="FirstPyecharts" scrolling="no" frameborder=”no” width="700" height="700"></iframe>
+ </div>
+
+ <div class="Line">
+    <p>折线图</p>
+        <iframe src="Test/Line-graph.html" name="FirstPyecharts" scrolling="no" frameborder=”no” width="700" height="700"></iframe>
+ </div>
+
+ <div class="Map">
+    <p>地图</p>
+       <iframe src="Test/Map-graph.html" name="FirstPyecharts" scrolling="no" frameborder=”no” width="700" height="700"></iframe>
+ </div>
+
+
+ <div class="Mix">
+    <p>混合图</p>
+       <iframe src="Test/Mix-graph.html" name="FirstPyecharts" scrolling="no" frameborder=”no” width="700" height="700"></iframe>
+ </div>
+
+ <div class="Pot">
+    <p>点状图</p>
+       <iframe src="Test/pot-gragh.html" name="FirstPyecharts" scrolling="no" frameborder=”no” width="700" height="700"></iframe>
+ </div>
+
+ <div class="Pie">
+    <p>饼状图</p>
+       <iframe src="Test/Pie-Graph.html" name="FirstPyecharts" scrolling="no" frameborder=”no” width="700" height="700"></iframe>
+ </div>
+</div>
+</body>
+</html>
+
+
